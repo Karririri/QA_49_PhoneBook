@@ -1,4 +1,4 @@
-package data_transfer_object;
+package dto;
 
 import lombok.*;
 
@@ -8,7 +8,6 @@ import lombok.*;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-
 public class Contact {
     private String id;
     private String name;

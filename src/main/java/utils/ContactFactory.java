@@ -1,16 +1,21 @@
 package utils;
 
-import data_transfer_object.Contact;
+import dto.Contact;
 import net.datafaker.Faker;
 
 public class ContactFactory {
-
     static Faker faker = new Faker();
 
     public static void main(String[] args) {
-
+        System.out.println(positiveContact());
     }
-
+    //    private String id;
+//    private String name;
+//    private String lastName;
+//    private String email;
+//    private String phone;
+//    private String address;
+//    private String description;
     public static Contact positiveContact(){
         return Contact.builder()
                 .name(faker.name().firstName())
@@ -21,5 +26,4 @@ public class ContactFactory {
                 .description("it's my friend")
                 .build();
     }
-
 }

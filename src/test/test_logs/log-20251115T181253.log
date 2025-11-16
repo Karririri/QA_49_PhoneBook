@@ -1,0 +1,3 @@
+18:12:54.205 [Test worker] INFO  utils.TestNGListener - start testing --> Sat Nov 15 18:12:54 IST 2025 ===================
+18:12:54.250 [Test worker] INFO  utils.TestNGListener - skipped test --> AddNewContactTests.addNewContactPositiveTest_withDataProvider(dto.Contact)[pri:0, instance:ui_tests.AddNewContactTests@2807bdeb]
+18:12:54.255 [Test worker] INFO  utils.TestNGListener - stop testing --> Sat Nov 15 18:12:54 IST 2025 ===================

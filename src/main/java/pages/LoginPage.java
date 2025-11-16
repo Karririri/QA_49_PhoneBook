@@ -1,13 +1,12 @@
 package pages;
 
-import data_transfer_object.User;
+import dto.User;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.pagefactory.AjaxElementLocatorFactory;
-import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -17,10 +16,8 @@ public class LoginPage extends BasePage{
 
     public LoginPage(WebDriver driver){
         setDriver(driver);
-        PageFactory.initElements
-                (new AjaxElementLocatorFactory(driver, 10), this);
+        PageFactory.initElements(new AjaxElementLocatorFactory(driver, 10), this);
     }
-
 
     @FindBy(css = "input[name='email']")
     WebElement inputEmail;
@@ -34,13 +31,12 @@ public class LoginPage extends BasePage{
     @FindBy(css = "button[name='registration']")
     WebElement btnRegistrationForm;
 
-
     public void typeLoginForm(String email, String password){
         inputEmail.sendKeys(email);
         inputPassword.sendKeys(password);
+        pause(2);
         btnLoginForm.click();
     }
-
 
     public void typeLoginFormWithUser(User user){
         inputEmail.sendKeys(user.getUsername());
@@ -48,10 +44,9 @@ public class LoginPage extends BasePage{
         btnLoginForm.click();
     }
 
-
     public String closeAlertReturnText(){
         Alert alert = new WebDriverWait(driver, Duration.ofSeconds(10))
-                .until(ExpectedConditions.alertIsPresent()); // wait until alert displays
+                .until(ExpectedConditions.alertIsPresent());
         String text = alert.getText();
         alert.accept();
         return text;

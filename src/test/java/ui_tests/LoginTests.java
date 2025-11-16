@@ -1,28 +1,32 @@
 package ui_tests;
 
-import data_transfer_object.User;
+import dto.User;
 import manager.ApplicationManager;
+import org.openqa.selenium.By;
 import org.testng.Assert;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import pages.ContactsPage;
 import pages.HomePage;
 import pages.LoginPage;
+import utils.RetryAnalyzer;
+import utils.TestNGListener;
 
+@Listeners(TestNGListener.class)
 public class LoginTests extends ApplicationManager {
 
-    @Test
+    @Test//(retryAnalyzer = RetryAnalyzer.class)
     public void loginPositiveTest(){
         HomePage homePage = new HomePage(getDriver());
         homePage.clickBtnLoginHeader();
         LoginPage loginPage = new LoginPage(getDriver());
-        loginPage.typeLoginForm("karinabalatsky0201@gmail.com", "Abcr@8uf");
+        loginPage.typeLoginForm("a@mail.ru", "Password123!qqqqq");
         Assert.assertTrue(new ContactsPage(getDriver()).isTextContactsPresent("CONTACTS"));
     }
 
-
     @Test
     public void loginNegativeTest_wrongPassword(){
-        User user = new User("karinabalatsky0201@gmail.com", "000");
+        User user = new User("a@mail.ru", "password123!");
         HomePage homePage = new HomePage(getDriver());
         homePage.clickBtnLoginHeader();
         LoginPage loginPage = new LoginPage(getDriver());

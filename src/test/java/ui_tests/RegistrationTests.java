@@ -1,16 +1,19 @@
 package ui_tests;
 
-import data_transfer_object.User;
+import dto.User;
 import manager.ApplicationManager;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import pages.ContactsPage;
 import pages.HomePage;
 import pages.LoginPage;
+import utils.TestNGListener;
 
 import static utils.UserFactory.*;
 
+@Listeners(TestNGListener.class)
 public class RegistrationTests extends ApplicationManager {
 
     LoginPage loginPage;
@@ -29,12 +32,12 @@ public class RegistrationTests extends ApplicationManager {
                 .isTextNoContactsPresent("No Contacts here!"));
     }
 
-
     @Test
-    public void registrationNegativeTest_WrongEmail(){
+    public void registrationNegativeTest_wrongEmail(){
         User user = positiveUser();
         user.setUsername("wrong email");
         loginPage.typeRegForm(user);
-        Assert.assertTrue(loginPage.closeAlertReturnText().contains("Wrong email or password format"));
+        Assert.assertTrue(loginPage.closeAlertReturnText()
+                .contains("Wrong email or password format"));
     }
 }

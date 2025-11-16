@@ -1,4 +1,4 @@
-package data_transfer_object;
+package dto;
 
 public class User {
     private String username;
