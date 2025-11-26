@@ -1,0 +1,10 @@
+cd C:\Users\KB\IdeaProjects\QA49_start_project\QA_49_PhoneBook
+.\gradlew clean smoke_tests  //run group smoke tests
+
+.\gradlew clean smoke_contact_tests  //run group smoke WO user group
+.\gradlew clean -Dsuite=negative_tests different_tests
+.\gradlew clean different_tests -Dsuite=smoke_contact_tests
+
+.\gradlew clean browser_tests -Pbrowser=firefox
+.\gradlew clean browser_tests -Pbrowser=edge
+.\gradlew clean browser_tests -Pbrowser=chrome   //headless run

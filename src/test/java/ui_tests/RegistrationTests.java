@@ -18,13 +18,13 @@ public class RegistrationTests extends ApplicationManager {
 
     LoginPage loginPage;
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void goToRegPage(){
         new HomePage(getDriver()).clickBtnLoginHeader();
         loginPage = new LoginPage(getDriver());
     }
 
-    @Test
+    @Test(groups = {"smoke", "user"})
     public void registrationPositiveTest(){
         User user = positiveUser();
         loginPage.typeRegForm(user);
@@ -32,7 +32,7 @@ public class RegistrationTests extends ApplicationManager {
                 .isTextNoContactsPresent("No Contacts here!"));
     }
 
-    @Test
+    @Test(groups = "negative")
     public void registrationNegativeTest_wrongEmail(){
         User user = positiveUser();
         user.setUsername("wrong email");

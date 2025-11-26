@@ -1,0 +1,85 @@
+20:30:03.787 [Test worker] INFO  utils.TestNGListener - start testing --> Thu Nov 20 20:30:03 IST 2025 ===================
+20:30:06.478 [Test worker] INFO  manager.ApplicationManager - Start test in browser Chrome
+20:30:06.838 [Test worker] INFO  utils.TestNGListener - start test --> LoginTests.loginPositiveTest()[pri:0, instance:ui_tests.LoginTests@78f5c518]
+20:30:07.535 [Test worker] INFO  utils.WDListener - open page https://telranedu.web.app/login
+20:30:07.556 [Test worker] INFO  utils.WDListener - find element with locator By.cssSelector: a[href='/login']
+20:30:07.764 [Test worker] INFO  utils.WDListener - after click to element a
+20:30:07.766 [Test worker] INFO  utils.WDListener - find element with locator By.cssSelector: input[name='email']
+20:30:07.884 [Test worker] INFO  utils.WDListener - use sendKeys to element input type [a@mail.ru]
+20:30:07.886 [Test worker] INFO  utils.WDListener - find element with locator By.cssSelector: input[name='password']
+20:30:07.966 [Test worker] INFO  utils.WDListener - use sendKeys to element input type [Password123!]
+20:30:09.970 [Test worker] INFO  utils.WDListener - find element with locator By.cssSelector: button[name='login']
+20:30:09.984 [Test worker] ERROR utils.WDListener - created exception java.lang.reflect.InvocationTargetException
+20:30:09.994 [Test worker] INFO  utils.TestNGListener - failed test --> LoginTests.loginPositiveTest()[pri:0, instance:ui_tests.LoginTests@78f5c518]
+20:30:09.995 [Test worker] ERROR utils.TestNGListener - failed test error--> LoginTests.loginPositiveTest()[pri:0, instance:ui_tests.LoginTests@78f5c518]
+20:30:10.098 [Test worker] INFO  utils.WDListener - browser quit
+20:30:11.418 [Test worker] INFO  manager.ApplicationManager - Start test in browser Chrome
+20:30:12.113 [Test worker] INFO  utils.WDListener - open page https://telranedu.web.app/login
+20:30:12.113 [Test worker] INFO  utils.WDListener - find element with locator By.cssSelector: a[href='/login']
+20:30:12.311 [Test worker] INFO  utils.WDListener - after click to element a
+20:30:12.313 [Test worker] INFO  utils.TestNGListener - start test --> RegistrationTests.registrationPositiveTest()[pri:0, instance:ui_tests.RegistrationTests@5cdd09b1]
+20:30:12.654 [Test worker] INFO  utils.WDListener - find element with locator By.cssSelector: input[name='email']
+20:30:12.851 [Test worker] INFO  utils.WDListener - use sendKeys to element input type [terrilyn.homenick@hotmail.com]
+20:30:12.852 [Test worker] INFO  utils.WDListener - find element with locator By.cssSelector: input[name='password']
+20:30:12.964 [Test worker] INFO  utils.WDListener - use sendKeys to element input type [Password123!]
+20:30:12.964 [Test worker] INFO  utils.WDListener - find element with locator By.cssSelector: button[name='registration']
+20:30:13.131 [Test worker] INFO  utils.WDListener - find element with locator By.xpath: //div[@class='contact-page_message__2qafk']
+20:30:13.148 [Test worker] ERROR utils.WDListener - created exception java.lang.reflect.InvocationTargetException
+20:30:13.151 [Test worker] INFO  utils.WDListener - find element with locator By.xpath: //div[@class='contact-page_message__2qafk']
+20:30:13.158 [Test worker] ERROR utils.WDListener - created exception java.lang.reflect.InvocationTargetException
+20:30:13.164 [Test worker] INFO  utils.TestNGListener - failed test --> RegistrationTests.registrationPositiveTest()[pri:0, instance:ui_tests.RegistrationTests@5cdd09b1]
+20:30:13.165 [Test worker] ERROR utils.TestNGListener - failed test error--> RegistrationTests.registrationPositiveTest()[pri:0, instance:ui_tests.RegistrationTests@5cdd09b1]
+20:30:13.331 [Test worker] INFO  utils.WDListener - browser quit
+20:30:14.725 [Test worker] INFO  manager.ApplicationManager - Start test in browser Chrome
+20:30:15.485 [Test worker] INFO  utils.WDListener - open page https://telranedu.web.app/login
+20:30:15.498 [Test worker] INFO  utils.WDListener - find element with locator By.xpath: //a[text()='LOGIN']
+20:30:15.771 [Test worker] INFO  utils.WDListener - after click to element a
+20:30:15.774 [Test worker] INFO  utils.WDListener - find element with locator By.cssSelector: input[name='email']
+20:30:15.952 [Test worker] INFO  utils.WDListener - use sendKeys to element input type [krin22@gmail.com]
+20:30:15.952 [Test worker] INFO  utils.WDListener - find element with locator By.cssSelector: input[name='password']
+20:30:21.265 [Test worker] ERROR utils.WDListener - created exception java.lang.reflect.InvocationTargetException
+20:30:21.270 [Test worker] INFO  utils.TestNGListener - start test --> EditContactTests.editFirstContactPositiveTest()[pri:0, instance:ui_tests.EditContactTests@35e5d0e5]
+20:30:21.270 [Test worker] INFO  utils.TestNGListener - skipped test --> EditContactTests.editFirstContactPositiveTest()[pri:0, instance:ui_tests.EditContactTests@35e5d0e5]
+20:30:21.275 [Test worker] INFO  utils.WDListener - browser quit
+20:30:22.441 [Test worker] INFO  manager.ApplicationManager - Start test in browser Chrome
+20:30:23.714 [Test worker] INFO  utils.WDListener - open page https://telranedu.web.app/login
+20:30:23.715 [Test worker] INFO  utils.WDListener - find element with locator By.xpath: //a[text()='LOGIN']
+20:30:23.945 [Test worker] INFO  utils.WDListener - after click to element a
+20:30:23.946 [Test worker] INFO  utils.WDListener - find element with locator By.cssSelector: input[name='email']
+20:30:24.069 [Test worker] INFO  utils.WDListener - use sendKeys to element input type [krin22@gmail.com]
+20:30:24.070 [Test worker] INFO  utils.WDListener - find element with locator By.cssSelector: input[name='password']
+20:30:24.156 [Test worker] INFO  utils.WDListener - use sendKeys to element input type [Password123!]
+20:30:26.162 [Test worker] INFO  utils.WDListener - find element with locator By.cssSelector: button[name='login']
+20:30:26.168 [Test worker] ERROR utils.WDListener - created exception java.lang.reflect.InvocationTargetException
+20:30:26.171 [Test worker] INFO  utils.TestNGListener - start test --> DeleteContactTests.deleteFirstContactPositiveTest()[pri:0, instance:ui_tests.DeleteContactTests@55562aa9]
+20:30:26.172 [Test worker] INFO  utils.TestNGListener - skipped test --> DeleteContactTests.deleteFirstContactPositiveTest()[pri:0, instance:ui_tests.DeleteContactTests@55562aa9]
+20:30:26.257 [Test worker] INFO  utils.WDListener - browser quit
+20:30:27.404 [Test worker] INFO  manager.ApplicationManager - Start test in browser Chrome
+20:30:28.073 [Test worker] INFO  utils.WDListener - open page https://telranedu.web.app/login
+20:30:28.074 [Test worker] INFO  utils.WDListener - find element with locator By.xpath: //a[text()='LOGIN']
+20:30:28.255 [Test worker] INFO  utils.WDListener - after click to element a
+20:30:28.258 [Test worker] INFO  utils.WDListener - find element with locator By.cssSelector: input[name='email']
+20:30:28.387 [Test worker] INFO  utils.WDListener - use sendKeys to element input type [krin22@gmail.com]
+20:30:28.387 [Test worker] INFO  utils.WDListener - find element with locator By.cssSelector: input[name='password']
+20:30:28.497 [Test worker] INFO  utils.WDListener - use sendKeys to element input type [Password123!]
+20:30:30.508 [Test worker] INFO  utils.WDListener - find element with locator By.cssSelector: button[name='login']
+20:30:32.047 [Test worker] INFO  utils.WDListener - find element with locator By.xpath: //a[text()='ADD']
+20:30:32.207 [Test worker] INFO  utils.WDListener - after click to element a
+20:30:32.208 [Test worker] INFO  utils.TestNGListener - start test --> AddNewContactTests.addNewContactPositiveTest()[pri:0, instance:ui_tests.AddNewContactTests@1a9c38eb]
+20:30:32.244 [Test worker] INFO  utils.WDListener - find element with locator By.xpath: //div[@class='add_form__2rsm2']/input[1]
+20:30:32.333 [Test worker] INFO  utils.WDListener - use sendKeys to element input type [Jody]
+20:30:32.334 [Test worker] INFO  utils.WDListener - find element with locator By.xpath: //div[@class='add_form__2rsm2']/input[2]
+20:30:32.414 [Test worker] INFO  utils.WDListener - use sendKeys to element input type [Frami]
+20:30:32.414 [Test worker] INFO  utils.WDListener - find element with locator By.xpath: //div[@class='add_form__2rsm2']/input[3]
+20:30:32.497 [Test worker] INFO  utils.WDListener - use sendKeys to element input type [86287342812738]
+20:30:32.497 [Test worker] INFO  utils.WDListener - find element with locator By.xpath: //div[@class='add_form__2rsm2']/input[4]
+20:30:32.582 [Test worker] INFO  utils.WDListener - use sendKeys to element input type [eliza.mraz@gmail.com]
+20:30:32.582 [Test worker] INFO  utils.WDListener - find element with locator By.xpath: //div[@class='add_form__2rsm2']/input[5]
+20:30:32.676 [Test worker] INFO  utils.WDListener - use sendKeys to element input type [Apt. 889 647 Nancy Mews, Zulmaview, SD 43634]
+20:30:32.677 [Test worker] INFO  utils.WDListener - find element with locator By.xpath: //div[@class='add_form__2rsm2']/input[last()]
+20:30:32.756 [Test worker] INFO  utils.WDListener - use sendKeys to element input type [it's my friend]
+20:30:32.756 [Test worker] INFO  utils.WDListener - find element with locator By.xpath: //b/..
+20:30:33.001 [Test worker] INFO  utils.WDListener - after click to element button
+20:30:33.628 [Test worker] INFO  utils.TestNGListener - success test --> AddNewContactTests.addNewContactPositiveTest()[pri:0, instance:ui_tests.AddNewContactTests@1a9c38eb]
+20:30:33.793 [Test worker] INFO  utils.WDListener - browser quit
+20:30:33.794 [Test worker] INFO  utils.TestNGListener - stop testing --> Thu Nov 20 20:30:33 IST 2025 ===================

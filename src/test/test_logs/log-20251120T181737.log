@@ -1,0 +1,23 @@
+18:17:37.307 [Test worker] INFO  utils.TestNGListener - start testing --> Thu Nov 20 18:17:37 IST 2025 ===================
+18:17:39.328 [Test worker] INFO  utils.TestNGListener - start test --> LoginTests.loginPositiveTest()[pri:0, instance:ui_tests.LoginTests@1338fb5]
+18:17:39.926 [Test worker] INFO  utils.WDListener - open page https://telranedu.web.app/login
+18:17:39.944 [Test worker] INFO  utils.WDListener - find element with locator By.cssSelector: a[href='/login']
+18:17:40.120 [Test worker] INFO  utils.WDListener - after click to element a
+18:17:40.122 [Test worker] INFO  utils.WDListener - find element with locator By.cssSelector: input[name='email']
+18:17:40.273 [Test worker] INFO  utils.WDListener - use sendKeys to element input type [a@mail.ru]
+18:17:40.273 [Test worker] INFO  utils.WDListener - find element with locator By.cssSelector: input[name='password']
+18:17:40.398 [Test worker] INFO  utils.WDListener - use sendKeys to element input type [Password123!]
+18:17:42.407 [Test worker] INFO  utils.WDListener - find element with locator By.cssSelector: button[name='login']
+18:17:42.541 [Test worker] INFO  utils.WDListener - find element with locator By.xpath: //a[@href='/contacts']
+18:17:42.576 [Test worker] ERROR utils.WDListener - created exception java.lang.reflect.InvocationTargetException
+18:17:42.576 [Test worker] INFO  utils.WDListener - find element with locator By.xpath: //a[@href='/contacts']
+18:17:42.588 [Test worker] ERROR utils.WDListener - created exception java.lang.reflect.InvocationTargetException
+18:17:42.841 [Test worker] INFO  utils.WDListener - find element with locator By.xpath: //a[@href='/contacts']
+18:17:42.858 [Test worker] ERROR utils.WDListener - created exception java.lang.reflect.InvocationTargetException
+18:17:43.120 [Test worker] INFO  utils.WDListener - find element with locator By.xpath: //a[@href='/contacts']
+18:17:43.140 [Test worker] ERROR utils.WDListener - created exception java.lang.reflect.InvocationTargetException
+18:17:43.400 [Test worker] INFO  utils.WDListener - find element with locator By.xpath: //a[@href='/contacts']
+18:17:43.413 [Test worker] ERROR utils.WDListener - created exception java.lang.reflect.InvocationTargetException
+18:17:43.679 [Test worker] INFO  utils.WDListener - find element with locator By.xpath: //a[@href='/contacts']
+18:17:43.737 [Test worker] INFO  utils.TestNGListener - success test --> LoginTests.loginPositiveTest()[pri:0, instance:ui_tests.LoginTests@1338fb5]
+18:17:43.741 [Test worker] INFO  utils.TestNGListener - stop testing --> Thu Nov 20 18:17:43 IST 2025 ===================

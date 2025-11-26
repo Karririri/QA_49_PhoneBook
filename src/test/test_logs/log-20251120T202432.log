@@ -1,0 +1,12 @@
+20:24:32.508 [Test worker] INFO  utils.TestNGListener - start testing --> Thu Nov 20 20:24:32 IST 2025 ===================
+20:24:33.222 [Test worker] INFO  utils.TestNGListener - start test --> LoginTests.loginPositiveTest()[pri:0, instance:ui_tests.LoginTests@78f5c518]
+20:24:33.225 [Test worker] INFO  utils.TestNGListener - skipped test --> LoginTests.loginPositiveTest()[pri:0, instance:ui_tests.LoginTests@78f5c518]
+20:24:33.952 [Test worker] INFO  utils.TestNGListener - start test --> RegistrationTests.registrationPositiveTest()[pri:0, instance:ui_tests.RegistrationTests@5cdd09b1]
+20:24:33.954 [Test worker] INFO  utils.TestNGListener - skipped test --> RegistrationTests.registrationPositiveTest()[pri:0, instance:ui_tests.RegistrationTests@5cdd09b1]
+20:24:34.423 [Test worker] INFO  utils.TestNGListener - start test --> EditContactTests.editFirstContactPositiveTest()[pri:0, instance:ui_tests.EditContactTests@73173f63]
+20:24:34.424 [Test worker] INFO  utils.TestNGListener - skipped test --> EditContactTests.editFirstContactPositiveTest()[pri:0, instance:ui_tests.EditContactTests@73173f63]
+20:24:35.000 [Test worker] INFO  utils.TestNGListener - start test --> DeleteContactTests.deleteFirstContactPositiveTest()[pri:0, instance:ui_tests.DeleteContactTests@55562aa9]
+20:24:35.002 [Test worker] INFO  utils.TestNGListener - skipped test --> DeleteContactTests.deleteFirstContactPositiveTest()[pri:0, instance:ui_tests.DeleteContactTests@55562aa9]
+20:24:35.492 [Test worker] INFO  utils.TestNGListener - start test --> AddNewContactTests.addNewContactPositiveTest()[pri:0, instance:ui_tests.AddNewContactTests@1a9c38eb]
+20:24:35.493 [Test worker] INFO  utils.TestNGListener - skipped test --> AddNewContactTests.addNewContactPositiveTest()[pri:0, instance:ui_tests.AddNewContactTests@1a9c38eb]
+20:24:35.494 [Test worker] INFO  utils.TestNGListener - stop testing --> Thu Nov 20 20:24:35 IST 2025 ===================
